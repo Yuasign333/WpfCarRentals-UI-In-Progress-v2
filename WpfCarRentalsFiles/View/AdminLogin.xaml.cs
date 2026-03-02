@@ -12,7 +12,7 @@ namespace WpfFirst.View
             InitializeComponent();
         }
 
-        private void LoginBtn_Click(object sender, RoutedEventArgs e)
+        private void LoginBtn_Click(object sender, RoutedEventArgs e) //fixed
         {
             string id = UsernameBox.Text.Trim();
             string pass = PasswordBox.Password;
